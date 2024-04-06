@@ -18,16 +18,15 @@
 		"editorRuler.foreground": "#AAB1C026",
 		"editor.lineHighlightBackground": "#000000",
 		"editor.selectionBackground": "#484e5b",
-		"editor.selectionHighlightBackground": "#484e5b",
+		"editor.selectionHighlightBackground": "#00000000",
 		"editorCursor.foreground": "#14FA50",
-		"editor.editor.findMatchBackground": "#000000",
-		"editor.findMatchHighlightBackground": "#000000",
-		"editor.wordHighlightBackground": "#484e5b",
+		"editor.findMatchBackground": "#00000000",
+		"editor.findMatchHighlightBackground": "#00000000",
+		"editor.wordHighlightBackground": "#484e5baa",
 		"editor.wordHighlightStrongBackground": "#AAB1C026",
-		"editorGroup.background": "#000000",
 		"editorGroup.border": "#181A1F",
 		"editorGroupHeader.tabsBackground": "#000000",
-		"editorIndentGuide.background": "#3B4048",
+		"editorIndentGuide.background1": "#3B4048",
 		"editorLineNumber.foreground": "#495162",
 		"editorWhitespace.foreground": "#3B4048",
 		"editorHoverWidget.background": "#000000",
@@ -44,7 +43,6 @@
 		"list.highlightForeground": "#C5C5C5",
 		"list.inactiveSelectionBackground": "#2c313a",
 		"list.inactiveSelectionForeground": "#d7dae0",
-		"notification.background": "#21252b",
 		"peekViewEditor.matchHighlightBackground": "#29244b",
 		"scrollbarSlider.background": "#4E566680",
 		"scrollbarSlider.activeBackground": "#747D9180",
@@ -332,7 +330,7 @@
 		  "name": "comment",
 		  "scope": "comment.line.double-slash,comment.block.documentation",
 		  "settings": {
-			"fontStyle": "normal"
+			"fontStyle": ""
 		  }
 		},
 		{
@@ -745,7 +743,7 @@
 		  "scope": "entity.other.attribute-name.id",
 		  "settings": {
 			"foreground": "#52ADF2",
-			"fontStyle": "normal"
+			"fontStyle": ""
 		  }
 		},
 		{
@@ -753,7 +751,7 @@
 		  "scope": "entity.other.attribute-name.class.css",
 		  "settings": {
 			"foreground": "#D8985F",
-			"fontStyle": "normal"
+			"fontStyle": ""
 		  }
 		},
 		{
@@ -949,7 +947,6 @@
 		  "name": "Illegal",
 		  "scope": "invalid.illegal",
 		  "settings": {
-			"background": "#e05252",
 			"foreground": "#FFFFFF"
 		  }
 		},
@@ -957,7 +954,6 @@
 		  "name": "Broken",
 		  "scope": "invalid.broken",
 		  "settings": {
-			"background": "#e05252",
 			"foreground": "#FFFFFF"
 		  }
 		},
@@ -965,7 +961,6 @@
 		  "name": "Deprecated",
 		  "scope": "invalid.deprecated",
 		  "settings": {
-			"background": "#d27b53",
 			"foreground": "#FFFFFF"
 		  }
 		},
@@ -973,7 +968,6 @@
 		  "name": "Unimplemented",
 		  "scope": "invalid.unimplemented",
 		  "settings": {
-			"background": "#747369",
 			"foreground": "#FFFFFF"
 		  }
 		},
