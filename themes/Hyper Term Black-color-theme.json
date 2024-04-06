@@ -86,25 +86,25 @@
 		  }
 		},
 		{
-		  "name": "punctuation.definition",
+		  "name": "String punctuation",
 		  "scope":
 			"punctuation.definition.string.begin,punctuation.definition.string.end",
 		  "settings": {
-			"foreground": "#98c378"
+			"foreground": "#ffffff"
 		  }
 		},
 		{
 		  "name": "Text",
 		  "scope": "variable.parameter.function",
 		  "settings": {
-			"foreground": "#A6B2C0"
+			"foreground": "#ffffff"
 		  }
 		},
 		{
 		  "name": "Comments",
 		  "scope": "comment, punctuation.definition.comment",
 		  "settings": {
-			"foreground": "#5C6370",
+			"foreground": "#d17aff",
 			"fontStyle": "italic"
 		  }
 		},
@@ -163,7 +163,7 @@
 		  "scope":
 			"punctuation.section.block.begin.bracket.curly.cpp,punctuation.section.block.end.bracket.curly.cpp,punctuation.terminator.statement.c,punctuation.section.block.begin.bracket.curly.c,punctuation.section.block.end.bracket.curly.c,punctuation.section.parens.begin.bracket.round.c,punctuation.section.parens.end.bracket.round.c,punctuation.section.parameters.begin.bracket.round.c,punctuation.section.parameters.end.bracket.round.c",
 		  "settings": {
-			"foreground": "#AAB1C0"
+			"foreground": "#ffffff"
 		  }
 		},
 		{
@@ -207,49 +207,6 @@
 		  "scope": "variable.other.constant",
 		  "settings": {
 			"foreground": "#e5c07b"
-		  }
-		},
-		{
-		  "name": "java modifier.import",
-		  "scope": "storage.type.annotation.java",
-		  "settings": {
-			"foreground": "#e5c07bff"
-		  }
-		},
-		{
-		  "name": "java modifier.import",
-		  "scope": "source.java",
-		  "settings": {
-			"foreground": "#EF596F"
-		  }
-		},
-		{
-		  "name": "java modifier.import",
-		  "scope":
-			"punctuation.section.block.begin.java,punctuation.section.block.end.java,punctuation.definition.method-parameters.begin.java,punctuation.definition.method-parameters.end.java,meta.method.identifier.java,punctuation.section.method.begin.java,punctuation.section.method.end.java,punctuation.terminator.java,punctuation.section.class.begin.java,punctuation.section.class.end.java,punctuation.section.inner-class.begin.java,punctuation.section.inner-class.end.java,meta.method-call.java,storage.type.generic.java,punctuation.section.class.begin.bracket.curly.java,punctuation.section.class.end.bracket.curly.java,punctuation.section.method.begin.bracket.curly.java,punctuation.section.method.end.bracket.curly.java,punctuation.separator.period.java,meta.method.body.java",
-		  "settings": {
-			"foreground": "#AAB1C0"
-		  }
-		},
-		{
-		  "name": "java modifier.import",
-		  "scope": "meta.method.java",
-		  "settings": {
-			"foreground": "#52ADF2"
-		  }
-		},
-		{
-		  "name": "java modifier.import",
-		  "scope": "storage.modifier.import.java,storage.type.java",
-		  "settings": {
-			"foreground": "#e5c07b"
-		  }
-		},
-		{
-		  "name": "java variable.name",
-		  "scope": "meta.definition.variable.name.java",
-		  "settings": {
-			"foreground": "#EF596F"
 		  }
 		},
 		{
@@ -363,13 +320,6 @@
 		  }
 		},
 		{
-		  "name": "js console function",
-		  "scope": "entity.name.function,support.function.console",
-		  "settings": {
-			"foreground": "#52ADF2"
-		  }
-		},
-		{
 		  "name": "js operator",
 		  "scope": "keyword.operator",
 		  "settings": {
@@ -394,7 +344,7 @@
 		  "name": "keyword.operator",
 		  "scope": "keyword.operator.arithmetic,keyword.operator.comparison",
 		  "settings": {
-			"foreground": "#2BBAC5"
+			"foreground": "#ffffff"
 		  }
 		},
 		{
@@ -405,6 +355,30 @@
 			"foreground": "#D55FDEff"
 		  }
 		},
+		{
+			"name": "C primitive types",
+			"scope":
+			  "storage.type.built-in.primitive.c",
+			"settings": {
+			  "foreground": "#2fd22d"
+			}
+		  },
+		  {
+			"name": "C keyword",
+			"scope":
+			  "storage.type.struct.c",
+			"settings": {
+			  "foreground": "#1d9ddd"
+			}
+		  },
+		  {
+			"name": "C vardef",
+			"scope":
+			  "meta.block.c",
+			"settings": {
+			  "foreground": "#ff9a47"
+			}
+		  },
 		{
 		  "name": "C punctuation",
 		  "scope": "punctuation.separator.delimiter.c",
@@ -434,12 +408,54 @@
 		  }
 		},
 		{
+			"name": "python punctuation",
+			"scope": "punctuation.separator.period.python,punctuation.separator.element.python",
+			"settings": {
+			  "foreground": "#ffffff"
+			}
+		  },
+		{
+			"name": "python attribute",
+			"scope": "meta.attribute.python",
+			"settings": {
+			  "foreground": "#ffffff"
+			}
+		},
+		{
+			"name": "python keyword",
+			"scope": "storage.type.function.python",
+			"settings": {
+			  "foreground": "#1d9ddd"
+			}
+		},
+		{
+			"name": "python list variable",
+			"scope": "meta.indexed-name.python",
+			"settings": {
+			  "foreground": "#ffffff"
+			}
+		},
+		{
+			"name": "python class names",
+			"scope": "meta.class.python",
+			"settings": {
+			  "foreground": "#1d9ddd"
+			}
+		  },
+		{
 		  "name": "python type",
 		  "scope": "support.type.python",
 		  "settings": {
 			"foreground": "#2BBAC5"
 		  }
 		},
+		{
+			"name": "function names",
+			"scope": "entity.name.function",
+			"settings": {
+			  "foreground": "#4dfcff"
+			}
+		  },
 		{
 		  "name": "python logical",
 		  "scope": "keyword.operator.logical.python",
@@ -494,37 +510,37 @@
 		  "name": "Delimiters",
 		  "scope": "none",
 		  "settings": {
-			"foreground": "#A6B2C0"
+			"foreground": "#ffffff"
 		  }
 		},
 		{
 		  "name": "Operators",
 		  "scope": "keyword.operator",
 		  "settings": {
-			"foreground": "#AAB1C0"
+			"foreground": "#ffffff"
 		  }
 		},
 		{
 		  "name": "Keywords",
 		  "scope": "keyword",
 		  "settings": {
-			"foreground": "#D55FDE"
+			"foreground": "#1d9ddd"
 		  }
 		},
 		{
 		  "name": "Variables",
 		  "scope": "variable",
 		  "settings": {
-			"foreground": "#EF596F"
+			"foreground": "#ff9a47"
 		  }
 		},
 		{
-		  "name": "Java Variables",
-		  "scope": "token.variable.parameter.java",
-		  "settings": {
-			"foreground": "#AAB1C0"
-		  }
-		},
+			"name": "Types",
+			"scope": "entity.name.type",
+			"settings": {
+			  "foreground": "#2fd22d"
+			}
+		  },
 		{
 		  "name": "Java Imports",
 		  "scope": "import.storage.java",
@@ -532,6 +548,34 @@
 			"foreground": "#e5c07b"
 		  }
 		},
+		{
+			"name": "Java primitive types",
+			"scope": "storage.type.primitive.java",
+			"settings": {
+			  "foreground": "#2fd22d"
+			}
+		  },
+		  {
+			"name": "Java types",
+			"scope": "storage.type.java",
+			"settings": {
+			  "foreground": "#2fd22d"
+			}
+		  },
+		  {
+			"name": "Java more types",
+			"scope": "storage.modifier.import.java",
+			"settings": {
+			  "foreground": "#ffffff"
+			}
+		  },
+		  {
+			"name": "Java keywords",
+			"scope": "storage.modifier.java",
+			"settings": {
+			  "foreground": "#1d9dd0"
+			}
+		  },
 		{
 		  "name": "Packages",
 		  "scope": "token.package.keyword",
@@ -547,41 +591,26 @@
 		  }
 		},
 		{
-		  "name": "Functions",
-		  "scope":
-			"entity.name.function, meta.require, support.function.any-method",
-		  "settings": {
-			"foreground": "#52ADF2"
-		  }
-		},
-		{
 		  "name": "Classes",
 		  "scope": "entity.name.type.namespace",
 		  "settings": {
-			"foreground": "#e5c07b"
+			"foreground": "#df20a3"
 		  }
 		},
 		{
 		  "name": "Classes",
 		  "scope": "support.class, entity.name.type.class",
 		  "settings": {
-			"foreground": "#e5c07b"
+			"foreground": "#df20a3"
 		  }
 		},
 		{
-		  "name": "Class name",
-		  "scope": "entity.name.class.identifier.namespace.type",
-		  "settings": {
-			"foreground": "#e5c07b"
-		  }
-		},
-		{
-		  "name": "Class name",
-		  "scope": "entity.name.class",
-		  "settings": {
-			"foreground": "#52ADF2"
-		  }
-		},
+			"name": "Class Name",
+			"scope": "entity.name.type.class",
+			"settings": {
+			  "foreground": "#ff9a47"
+			}
+		  },
 		{
 		  "name": "Type Name",
 		  "scope": "entity.name.type",
@@ -593,7 +622,7 @@
 		  "name": "Keyword Control",
 		  "scope": "keyword.control",
 		  "settings": {
-			"foreground": "#D55FDE"
+			"foreground": "#1d9ddd"
 		  }
 		},
 		{
@@ -608,13 +637,6 @@
 		  "scope": "keyword.other.special-method",
 		  "settings": {
 			"foreground": "#52ADF2"
-		  }
-		},
-		{
-		  "name": "Storage",
-		  "scope": "storage",
-		  "settings": {
-			"foreground": "#D55FDE"
 		  }
 		},
 		{
@@ -634,10 +656,10 @@
 		  }
 		},
 		{
-		  "name": "Java Storage",
+		  "name": "Java types",
 		  "scope": "token.storage.type.java",
 		  "settings": {
-			"foreground": "#e5c07b"
+			"foreground": "#2fd22d"
 		  }
 		},
 		{
@@ -679,7 +701,7 @@
 		  "name": "Strings, Inherited Class",
 		  "scope": "string, entity.other.inherited-class",
 		  "settings": {
-			"foreground": "#89CA78"
+			"foreground": "#f5ff80"
 		  }
 		},
 		{
@@ -693,35 +715,76 @@
 		  "name": "Integers",
 		  "scope": "constant.numeric",
 		  "settings": {
-			"foreground": "#D8985F"
+			"foreground": "#ff2626"
 		  }
 		},
 		{
-		  "name": "Floats",
-		  "scope": "none",
+			"name": "Integers java",
+			"scope": "constant.numeric.decimal.java",
+			"settings": {
+			  "foreground": "#ff2626"
+			}
+		  },
+		{
+		  "name": "Floats java",
+		  "scope": "constant.numeric.float.java",
 		  "settings": {
-			"foreground": "#D8985F"
+			"foreground": "#00efcc"
 		  }
 		},
 		{
-		  "name": "Boolean",
-		  "scope": "none",
-		  "settings": {
-			"foreground": "#D8985F"
-		  }
+			"name": "Arrays java",
+			"scope": "storage.type.object.array.java",
+			"settings": {
+			  "foreground": "#2fd22d"
+			}
+		},
+		{
+			"name": "Method names java",
+			"scope": "entity.name.function.java",
+			"settings": 
+			{
+			  "foreground": "#ff9a47"
+			}
+		  },
+		  {
+			"name": "Variable attribute java",
+			"scope": "variable.other.object.property.java",
+			"settings": 
+			{
+			  "foreground": "#ffffff"
+			}
+		  },
+		{
+			"name": "Punctuation java",
+			"scope":
+				"punctuation.section.block.begin.java,punctuation.section.block.end.java,punctuation.bracket.square,punctuation.definition.parameters.begin.bracket.round.java,punctuation.definition.parameters.end.bracket.round.javapunctuation.definition.method-parameters.begin.java,punctuation.definition.method-parameters.end.java,punctuation.section.method.begin.java,punctuation.section.method.end.java,punctuation.terminator.java,punctuation.section.class.begin.java,punctuation.section.class.end.java,punctuation.section.inner-class.begin.java,punctuation.section.inner-class.end.java,meta.method-call.java,storage.type.generic.java,punctuation.section.class.begin.bracket.curly.java,punctuation.section.class.end.bracket.curly.java,punctuation.section.method.begin.bracket.curly.java,punctuation.section.method.end.bracket.curly.java,punctuation.separator.period.java,meta.method.body.java",
+			"settings": 
+			{
+				"foreground": "#ffffff"
+			}
+		},
+		{
+			"name": "This keyword java",
+			"scope":
+				"variable.language.this.java",
+			"settings": {
+				"foreground": "#1d9ddd"
+			}
+			},
+		{
+			"name": "Operators java",
+			"scope": "keyword.operator.java",
+			"settings": 
+			{
+				"foreground": "#ffffff"
+			}
 		},
 		{
 		  "name": "Constants",
 		  "scope": "constant",
 		  "settings": {
-			"foreground": "#D8985F"
-		  }
-		},
-		{
-		  "name": "Constants",
-		  "scope": "punctuation.definition.constant",
-		  "settings": {
-			"foreground": "#D8985F"
+			"foreground": "#ff2626"
 		  }
 		},
 		{
@@ -873,7 +936,7 @@
 		  "name": "[VSCODE-CUSTOM] Markdown Quote",
 		  "scope": "markup.quote.markdown",
 		  "settings": {
-			"foreground": "#5C6370",
+			"foreground": "#94a0b5",
 			"fontStyle": "italic"
 		  }
 		},
@@ -882,7 +945,7 @@
 		  "scope":
 			"punctuation.definition.string.begin.markdown,punctuation.definition.string.end.markdown,punctuation.definition.metadata.markdown",
 		  "settings": {
-			"foreground": "#AAB1C0"
+			"foreground": "#ffffff"
 		  }
 		},
 		{
@@ -897,7 +960,7 @@
 		  "scope":
 			"markup.underline.link.markdown,markup.underline.link.image.markdown",
 		  "settings": {
-			"foreground": "#D55FDE"
+			"foreground": "#0870d8"
 		  }
 		},
 		{
