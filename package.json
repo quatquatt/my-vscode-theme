@@ -1,9 +1,9 @@
 {
-    "name": "hyper-term-theme",
-    "displayName": "Hyper Term Theme",
-    "description": "HyperTerm inspired VSCode theme with vivid syntaxcolors and a pitch black UI.",
-    "version": "0.3.0",
-    "publisher": "hsnazar",
+    "name": "my-vscode-theme",
+    "displayName": "My Vscode Theme",
+    "description": "Your VSCode theme.",
+    "version": "0.1.0",
+    "publisher": "you",
     "engines": {
         "vscode": "^1.18.0"
     },
@@ -13,15 +13,15 @@
     "contributes": {
         "themes": [
             {
-                "label": "Hyper Term Black",
+                "label": "My VSCode Theme",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Hyper Term Black-color-theme.json"
+                "path": "./themes/my-vscode-theme.json"
             }
         ]
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/quatquatt/hyper-term-theme"
+        "url": "https://github.com/quatquatt/my-vscode-theme"
       },
     "icon": "icon.png",
     "keywords": [
