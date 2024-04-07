@@ -2,7 +2,7 @@
     "name": "my-vscode-theme",
     "displayName": "My Vscode Theme",
     "description": "Your VSCode theme.",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "publisher": "you",
     "engines": {
         "vscode": "^1.18.0"
