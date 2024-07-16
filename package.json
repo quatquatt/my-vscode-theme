@@ -11,7 +11,8 @@
         "Themes"
     ],
     "scripts": {
-        "prepublish": "python3 ./preprocessing/preprocessor.py"
+        "watch": "nodemon --watch ./preprocessing/preprocessor.py --exec npm run preprocess",
+         "preprocess": "python3 ./preprocessing/preprocessor.py"
     },
     "contributes": {
         "themes": [
@@ -33,5 +34,8 @@
         "Hyper Black",
         "hyper term black",
         "hyper"
-    ]
+    ],
+    "devDependencies": {
+        "nodemon": "^3.1.4"
+    }
 }
